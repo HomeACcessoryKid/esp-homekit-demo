@@ -1,9 +1,7 @@
-PROGRAM = fireplace
+PROGRAM = thermostat
 
 EXTRA_COMPONENTS = \
-	extras/i2s_dma \
-	extras/ws2812_i2s \
-	extras/rboot-ota \
+	extras/dht \
 	extras/http-parser \
 	$(abspath ../../components/wolfssl) \
 	$(abspath ../../components/cJSON) \
